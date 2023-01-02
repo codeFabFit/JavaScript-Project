@@ -1,0 +1,17 @@
+let myAge = 27;
+// current age in human years 
+let earlyYears = 2;
+// current early years in dog
+earlyYears *= 10.5
+let laterYears = myAge - 2;
+// laterYears is after earlyYears stage 
+laterYears *= 4;
+console.log(earlyYears)
+// prints my early year age
+console.log(laterYears)
+// prints my later year age 
+let myAgeInDogYears = earlyYears + laterYears 
+// prints my age in dog years 
+let myName = 'Fabiola'.toLowerCase(); 
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`);
+// displays sentence
